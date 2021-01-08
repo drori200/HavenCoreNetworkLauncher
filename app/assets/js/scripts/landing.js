@@ -719,6 +719,7 @@ function dlAsync(login = true) {
 
                     setLaunchDetails('Done. Enjoy the server!')
 
+
                     // Init Discord Hook
                     const distro = DistroManager.getDistribution()
                     if (distro.discord != null && serv.discord != null) {

@@ -492,7 +492,7 @@ class JavaGuard extends EventEmitter {
                 const verOb = JavaGuard.parseJavaRuntimeVersion(verString)
                 if(verOb.major < 9){
                     // Java 8
-                    if(verOb.major === 8 && verOb.update > 52){
+                    if(verOb.major === 8 && verOb.update >= 51){
                         meta.version = verOb
                         ++checksum
                         if(checksum === goal){
