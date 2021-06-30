@@ -48,7 +48,7 @@ if (!isDev) {
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
 
                 if (process.platform === 'darwin') {
-                    info.darwindownload = `https://github.com/drori200/HavenCoreNetworkLauncher/releases/download/v${info.version}/HavenCore-Network-Launcher-Setup-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/drori200/HavenCoreNetworkLauncher/releases/download/v${info.version}/HavenCore-Network-Launcher-Setup-${info.version}${process.arch === 'arm64' ? '-arm64' : ''}.dmg`
                     showUpdateUI(info)
                 }
 
