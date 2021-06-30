@@ -46,7 +46,8 @@ If you download from the [Releases](https://github.com/drori200/HavenCoreNetwork
 | Platform | File |
 | -------- | ---- |
 | Windows x64 | `HavenCore-Network-Launcher-Setup-VERSION.exe` |
-| macOS | `HavenCore-Network-Launcher-Setup-VERSION.dmg` |
+| macOS x64 | `HavenCore-Network-Launcher-Setup-VERSION.dmg` |
+| macOS arm64 | `HavenCore-Network-Launcher-Setup-VERSION.dmg-arm64.dmg` |
 | Linux x64 | `HavenCore-Network-Launcher-Setup-VERSION-x86_64.AppImage` |
 
 ## Console
