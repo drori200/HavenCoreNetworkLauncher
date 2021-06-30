@@ -1,6 +1,6 @@
 appId: 'havencorelauncher'
 productName: 'HavenCore Network Launcher'
-artifactName: '${productName}-setup-${version}.${ext}'
+artifactName: '${productName}-Setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2021 Daniel Scalzi'
 
@@ -33,7 +33,7 @@ mac:
       arch:
         - 'x64'
         - 'arm64'
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  artifactName: '${productName}-Setup-${version}-${arch}.${ext}'
   category: 'public.app-category.games'
 
 # Linux Configuration
